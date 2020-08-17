@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":lesson104" external.linked.project.path="$MODULE_DIR$/../../../lesson104" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Beginning" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":lesson104" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.0.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.0.1" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../lesson104/src/main/res;file://$MODULE_DIR$/../../../lesson104/src/debug/res;file://$MODULE_DIR$/../../../lesson104/build/generated/res/rs/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../lesson104/src/androidTest/res;file://$MODULE_DIR$/../../../lesson104/src/test/res;file://$MODULE_DIR$/../../../lesson104/src/androidTestDebug/res;file://$MODULE_DIR$/../../../lesson104/src/testDebug/res;file://$MODULE_DIR$/../../../lesson104/build/generated/res/rs/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../lesson104/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../lesson104/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.72/83423235971335be77d2ea025008bc9959738ffc/kotlin-android-extensions-runtime-1.3.72.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/8032138f12c0180bc4e51fe139d4c52b46db6109/kotlin-stdlib-1.3.72.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/6ca8bee3d88957eaaaef077c41c908c9940492d8/kotlin-stdlib-common-1.3.72.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/79ac2a20a476ccb26928f4d6b8f50d66/appcompat-v7-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/faf3aa147282379a3f8901e488c43e50/support-v4-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/7e430f2e4c694ffeb64ddc8a49dc71f6/support-fragment-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/04c53c23d87b3682f227d86a8c6c0160/animated-vector-drawable-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/f5330b2fb41c17f787b4d5adb193d0f3/support-core-ui-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/425e1bb3af79d346c61293645a12dc2b/support-core-utils-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/bda952a1329326d2bb09f0d47196f8b8/support-vector-drawable-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/dcafae0563230506a319be38ac089377/support-media-compat-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/cc2f67574e7feafca200d4d1376ccd83/loader-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/90186f0ec2519c87a591a6b47922163f/viewpager-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/c52125b1719fa9729ffad606280aba04/coordinatorlayout-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/9a22b74d9a63485f4e26be86f4186725/drawerlayout-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/bcfda3ec9f3eee69ad4250d28d564b5d/slidingpanelayout-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/aaed316efde4be9f5cb8c441933e90d7/customview-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/57dd7a39f2a59bf5857441be7cae13a8/swiperefreshlayout-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/a02306e501f1e234701f1434afbfd529/asynclayoutinflater-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/177fe631ae4cfb8454b514710ba51ba2/support-compat-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/de70c021e4e38e7ffba50f82ac181f8a/versionedparcelable-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/9c0a2c6e28fb16721fbe744dc7d126d6/cursoradapter-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/4fedc101bf699a8cfc9a672ebff8f44c/runtime-1.1.1-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/d757f02e3f26c1ab5a8043d4ba5df9fa/documentfile-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/7da4da2de49e777e1e6ea234744bb0de/localbroadcastmanager-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/ddf6e74a0b5b9d4a024a0957a3e37330/print-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/dae95fff064e4495e4019c7afc4af21a/viewmodel-1.1.1-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/bb2dbd199642f8ab8a7946497110d69f/interpolator-28.0.0-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/b2226ec85cdfc3c7a75bfcbc351823bc/livedata-1.1.1-api.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/235726ee2e23640bed5ea54c6ec1ecb7/livedata-core-1.1.1-api.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/e5901408eaf4f175420bb680866d869e/runtime-1.1.1-api.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar;C:/Users/omax1/.gradle/caches/transforms-2/files-2.1/ce85ee1c92a44d0961188be62db58a9c/constraint-layout-1.1.3-api.jar;C:/Users/omax1/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar;C:/Users/omax1/AppData/Local/Android/Sdk/platforms/android-29/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="lesson104_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.je
