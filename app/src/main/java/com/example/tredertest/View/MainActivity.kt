@@ -52,10 +52,19 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+        if(webView.canGoBack()) {
+            webView.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
     fun onClick(view: View) {
         if (view.id == R.id.retry) {
             clear()
             isWin = false
+            changeUrl("https://habr.com/ru/post/276139/")
         } else if (view is TextView && view.text == "" && !isWin) {
             var position = 0
             when (view.id) {
