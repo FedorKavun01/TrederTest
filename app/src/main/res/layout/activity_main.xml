@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".View.MainActivity">
 
     <WebView
         android:id="@+id/webView"
@@ -14,64 +14,108 @@
             android:id="@+id/LL"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/retry"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Retry"
+                android:onClick="onClick"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/white"/>
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
                 android:textSize="30sp"
                 android:textAlignment="center"
-                android:text="Hello, world!"
-                android:layout_marginBottom="100dp"/>
+                android:layout_marginBottom="90dp"/>
             <TableLayout
                 android:layout_width="300dp"
-                android:layout_height="300dp">
+                android:layout_height="300dp"
+                android:layout_gravity="center">
                 <TableRow>
                     <TextView
                         android:id="@+id/sqr11"
                         android:width="100dp"
-                        android:height="100dp"/>
+                        android:height="100dp"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/sqr12"
                         android:width="100dp"
                         android:height="100dp"
-                        android:background="@drawable/horizontal_textlines"/>
+                        android:background="@drawable/horizontal_textlines"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/sqr13"
                         android:width="100dp"
-                        android:height="100dp"/>
+                        android:height="100dp"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                 </TableRow>
                 <TableRow>
                     <TextView
                         android:id="@+id/sqr21"
                         android:width="100dp"
                         android:height="100dp"
-                        android:background="@drawable/vertical_textlines"/>
+                        android:background="@drawable/vertical_textlines"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/sqr22"
                         android:width="100dp"
                         android:height="100dp"
-                        android:background="@drawable/all_textlines"/>
+                        android:background="@drawable/all_textlines"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/sqr23"
                         android:width="100dp"
                         android:height="100dp"
-                        android:background="@drawable/vertical_textlines"/>
+                        android:background="@drawable/vertical_textlines"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                 </TableRow>
                 <TableRow>
                     <TextView
                         android:id="@+id/sqr31"
                         android:width="100dp"
-                        android:height="100dp" />
+                        android:height="100dp"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/sqr32"
                         android:width="100dp"
                         android:height="100dp"
-                        android:background="@drawable/horizontal_textlines"/>
+                        android:background="@drawable/horizontal_textlines"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/sqr33"
                         android:width="100dp"
-                        android:height="100dp" />
+                        android:height="100dp"
+                        android:onClick="onClick"
+                        android:textSize="90sp"
+                        android:textAlignment="center"
+                        />
                 </TableRow>
             </TableLayout>
         </LinearLayout>
